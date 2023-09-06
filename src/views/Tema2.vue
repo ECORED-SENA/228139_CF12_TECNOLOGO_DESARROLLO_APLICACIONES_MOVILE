@@ -24,7 +24,161 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-botones
+      #t_2_1.h2 2.1  Figma
+
+    .row.justify-content-center.mb-5
+      .col-xl-10
+        .row.row-border.align-items-center
+          .col-xl-5.px-0.d-none.d-xl-block
+            figure
+              img(src="@/assets/curso/tema2/img1.png", alt="")
+          .col-xl-7
+            p.mb-0.p-4 Figma es una herramienta de diseño colaborativo en línea que se utiliza para crear prototipos, diseños de interfaz de usuario (UI), diseño de experiencia de usuario (UX) y más. Figma se ha convertido en una opción popular para diseñadores y equipos de diseño de todo el mundo debido a sus características y ventajas únicas.
+
+
+    p.mb-5 A continuación, se describen sus principales características y ventajas:
+
+
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-md-8.col-lg.m-2.bg-aguamarina
+        .row
+          .col-12.px-0
+            figure
+              img(src='@/assets/curso/tema2/img2.png', style="width: 100%" ,alt='').m-auto
+          .col-12.bg-c10
+            .p-4
+              p.text-center #[strong Colaboración en tiempo real]: Figma permite a varios usuarios trabajar en el mismo proyecto de diseño en tiempo real. Esto facilita la colaboración entre diseñadores, desarrolladores y otros miembros del equipo, ya que pueden ver los cambios en tiempo real y comentar sobre ellos.
+
+      .col-md-8.col-lg.m-2.bg-aguamarina
+        .row
+          .col-12.px-0
+            figure
+              img(src='@/assets/curso/tema2/img3.png', style="width: 100%" ,alt='').m-auto
+          .col-12.bg-c10
+            .p-4
+              p.text-center #[strong Prototipado interactivo]: Figma permite crear prototipos interactivos de alta fidelidad. Puedes agregar enlaces, transiciones y animaciones a tus diseños para simular la experiencia del usuario final.
+
+      .col-md-8.col-lg.m-2.bg-aguamarina
+        .row
+          .col-12.px-0
+            figure
+              img(src='@/assets/curso/tema2/img4.png', style="width: 100%" ,alt='').m-auto
+          .col-12.bg-c10
+            .p-4
+              p.text-center #[strong Bibliotecas y componentes]: Figma permite a varios usuarios trabajar en el mismo proyecto de diseño en tiempo real. Esto facilita la colaboración entre diseñadores, desarrolladores y otros miembros del equipo, ya que pueden ver los cambios en tiempo real y comentar sobre ellos.
+
+    .row.justify-content-center.mb-5
+      .col-xl-3
+        figure
+          img(src='@/assets/curso/tema2/img5.png', style="width: 100%" ,alt='').m-auto
+
+      .col-xl-9
+        ul.lista-ul
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Accesible desde cualquier lugar:] Figma es una aplicación basada en la nube, lo que significa que puedes acceder a tus diseños desde cualquier dispositivo con una conexión a Internet.
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Versionamiento y control de cambios:] Cuenta con funciones de versionamiento y control de cambios.
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Integraciones y complementos:] Se integra con muchas otras herramientas populares, como Slack, Trello y Jira.
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Soporte para múltiples plataformas:] Figma es versátil y es adecuado para diseñar aplicaciones móviles, sitios web, interfaces de escritorio y más.
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Seguridad y privacidad:] Cuenta con medidas de seguridad robustas y opciones de control de acceso.
+
+
+        a.anexo.mb-4.mb-lg-0(href="https://www.figma.com/" target="_blank")
+          .anexo__icono
+            img(src="@/assets/curso/temas/icono-link.svg")
+          .anexo__texto
+            p Para cualquier acción de descarga, instalación, gestión o aprendizaje de uso de Figma, puede emplear el enlace de su sitio oficial: #[strong https://www.figma.com/]
+
+    Separador
+
+    .titulo-segundo.color-acento-botones
+      #t_2_2.h2 2.2  Sketch
+
+    .row
+      .col-xl-5
+        figure
+          img(src="@/assets/curso/tema2/img6.png", alt="")
+      .col-xl-7
+        p Sketch es una aplicación de diseño gráfico vectorial ampliamente utilizada por diseñadores, ilustradores y profesionales creativos para crear interfaces de usuario, ilustraciones, diseños de sitios web, iconos y otros elementos visuales.
+
+        p Sketch era una aplicación de diseño exclusiva para macOS. Sin embargo, es importante destacar que la disponibilidad de aplicaciones puede cambiar con el tiempo debido a actualizaciones y decisiones de los desarrolladores.
+
+        figure
+          img(src="@/assets/curso/tema2/Sketch-logo-light.svg", alt="" style="width: 190px")
+
+
+    p.mb-5 A continuación, se describen sus principales características y ventajas:
+
+
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-md-8.col-lg.m-2.bg-aguamarina
+        .row
+          .col-12.px-0
+            figure
+              img(src='@/assets/curso/tema2/img7.png', style="width: 100%" ,alt='').m-auto
+          .col-12.bg-c10
+            .p-4
+              p.text-center #[strong Diseño de interfaz de usuario (UI)]: Sketch se destaca en el diseño de interfaces de usuario para aplicaciones móviles y sitios web. Permite a los diseñadores crear diseños responsivos y componentes reutilizables para agilizar el proceso de diseño de interfaces.
+
+      .col-md-8.col-lg.m-2.bg-aguamarina
+        .row
+          .col-12.px-0
+            figure
+              img(src='@/assets/curso/tema2/img8.png', style="width: 100%" ,alt='').m-auto
+          .col-12.bg-c10
+            .p-4
+              p.text-center #[strong Diseño de iconos e ilustraciones]: Sketch es una herramienta versátil para crear iconos y ilustraciones vectoriales. Su capacidad de trabajar con vectores garantiza que los gráficos sean escalables y de alta calidad.
+
+      .col-md-8.col-lg.m-2.bg-aguamarina
+        .row
+          .col-12.px-0
+            figure
+              img(src='@/assets/curso/tema2/img9.png', style="width: 100%" ,alt='').m-auto
+          .col-12.bg-c10
+            .p-4
+              p.text-center #[strong Colaboración]: Aunque Sketch no es una herramienta de diseño colaborativo en tiempo real como algunas otras, permite a los diseñadores trabajar en equipo utilizando herramientas de terceros y compartir archivos fácilmente.
+
+    .bg-gold
+      .p-4
+        ul.lista-ul.mb-4
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Accesible desde cualquier lugar:] Facilidad de uso: La interfaz es intuitiva y fácil de usar, lo que facilita un flujo de trabajo eficiente.
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Versionamiento y control de cambios:] • Símbolos y estilos compartidos: permite crear símbolos y estilos compartidos, lo que facilita la actualización de elementos en todo el proyecto.
+
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Integraciones y complementos:]  Integración con complementos y recursos: Sketch es altamente extensible mediante complementos y recursos adicionales.
+
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Soporte para múltiples plataformas:]  Exportación eficiente: Ofrece opciones flexibles de exportación, como PNG, SVG y otros.
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Seguridad y privacidad:] Compatibilidad con dispositivos Apple: Está optimizado para trabajar con dispositivos Apple y es una opción popular entre diseñadores que se centran en el desarrollo de aplicaciones para iOS y macOS.
+          li
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Seguridad y privacidad:] Comunidad activa: Hay una comunidad activa de usuarios y recursos en línea, lo que facilita la búsqueda de tutoriales, plantillas y soluciones a problemas comunes.
+
+        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+    Separador
+
+    .titulo-segundo.color-acento-botones
       #t_2_1.h2 2.1  Balsamiq
 
     .row.mt-5
@@ -66,7 +220,7 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-botones
       #t_2_2.h2 2.2  Canva
     figure.mt-5
       img(src="@/assets/curso/temas/tema-2-23.png", alt="")
