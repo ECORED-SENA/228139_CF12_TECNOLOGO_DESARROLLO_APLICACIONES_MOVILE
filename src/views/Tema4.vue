@@ -164,8 +164,8 @@
         figure
           img(src="@/assets/curso/temas/tema-4-20.png", alt="")
     p.mt-5 Las bases de datos en tiempo real son la principal y esencial herramienta de Firebase.Estas se alojan en la nube, son de tipo NoSQL en formato JSON. Este servicio ofrece alojar y disponer de los datos de información de la aplicación en tiempo real, manteniéndolos actualizados, aunque el usuario no realice ninguna acción.
-    figure.mt-5
-      img(src="@/assets/curso/temas/tema-4-21.png", alt="")
+
+
 
     .row.my-5
       .col-4.offset-4.offset-lg-0
@@ -208,27 +208,28 @@
         figure
           img(src='@/assets/curso/temas/tema-4-29.png', alt='Imagen donde se muestra un cuadro de diálogo para crear un documento.')
 
-    .row.mt-5.justify-content-center
-      .col-xl-10
-        .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-4.mb-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema-4-30.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Uno de los principales inconvenientes podría ser la necesidad de pago ya que firebase no es gratuita en todas sus funcionalidades y gratuitamente limita el número de usuario. Sin embargo, para los proyectos que se encuentren en sus primeras etapas, la versión gratuita de Firebase es más que suficiente.
+
+
+    p.my-5 Uno de los principales inconvenientes podría ser la necesidad de pago ya que firebase no es gratuita en todas sus funcionalidades y gratuitamente limita el número de usuario. Sin embargo, para los proyectos que se encuentren en sus primeras etapas, la versión gratuita de Firebase es más que suficiente.
 
     Separador
 
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido.mb-5
       #t_4_4.h2 4.4  Herramientas
 
-    figure.mt-5
-      img(src="@/assets/curso/temas/tema-4-31.png", alt="")
-    p.mt-5 Durante el desarrollo de un proyecto basado en microservicios, las pruebas de API se vuelven esenciales. Estas pruebas son cruciales tanto para el desarrollo como para el consumo de una API, ya que permiten evaluar y garantizar el correcto funcionamiento, la funcionalidad esperada, la confiabilidad y la seguridad de la aplicación.
-    p.mt-3 A continuación, se enumeran algunas herramientas de código abierto que facilitan el proceso de prueba y diseño de APIs, utilizadas para distintos protocolos web.
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema-4-31.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Durante el desarrollo de un proyecto basado en microservicios, las pruebas de API se vuelven esenciales. Estas pruebas son cruciales tanto para el desarrollo como para el consumo de una API, ya que permiten evaluar y garantizar el correcto funcionamiento, la funcionalidad esperada, la confiabilidad y la seguridad de la aplicación.
+          br
+          br
+          | A continuación, se enumeran algunas herramientas de código abierto que facilitan el proceso de prueba y diseño de APIs, utilizadas para distintos protocolos web.
+
     .row.mt-5
       .col-8.offset-2
-        LineaTiempoD.color-acento-botones
+        LineaTiempoD.color-acento-contenido
           .row(numero="a" titulo="SOAP UI")
             .col-4.offset-4.offset-lg-0
               figure
