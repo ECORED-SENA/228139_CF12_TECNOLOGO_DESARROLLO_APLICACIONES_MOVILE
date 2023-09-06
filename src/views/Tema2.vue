@@ -302,7 +302,7 @@
           p.mt-5 El sistema de color de Material Design ayuda a aplicar color a las interfaces de usuario de una manera simplificada. En este sistema, el diseñador define un color como primario y otro como secundario para representar el tema de su marca. Las variaciones de oscuras y claras para cada color se aplican a la interfaz de usuario de diferentes maneras de manera prestablecida:
 
           .titulo-sexto.color-acento-contenido
-            h5 Figura 4
+            h5 Figura 2
             span Manejo de colores
           figure
             img(src="@/assets/curso/temas/tema-2-29.png", alt="")

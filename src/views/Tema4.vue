@@ -186,27 +186,27 @@
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Esperar el proceso de setup")
         h4 Esperar el proceso de setup
         figure
-          img(src='@/assets/curso/temas/tema-4-24.png', alt='Imagen del entorno de Firebase donde se muestra cómo el aplicativo anuncia que se está finalizando el proceso de Setup.')
+          img(src='@/assets/curso/temas/tema-4-25.png', alt='Imagen del entorno de Firebase donde se muestra cómo el aplicativo anuncia que se está finalizando el proceso de Setup.')
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Panel del proyecto")
         h4 Panel del proyecto
         figure
-          img(src='@/assets/curso/temas/tema-4-24.png', alt='Imagen del entorno de Firebase donde se muestra el panel del proyecto creado.')
+          img(src='@/assets/curso/temas/tema-4-26.png', alt='Imagen del entorno de Firebase donde se muestra el panel del proyecto creado.')
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Modo de pruebas")
         h4 Modo de pruebas
         figure
-          img(src='@/assets/curso/temas/tema-4-24.png', alt='Imagen del entorno de Firebase donde se muestran las reglas de seguridad de Cloud Firestore. Allí se seleccionan las reglas para proteger la estructura de datos.')
+          img(src='@/assets/curso/temas/tema-4-27.png', alt='Imagen del entorno de Firebase donde se muestran las reglas de seguridad de Cloud Firestore. Allí se seleccionan las reglas para proteger la estructura de datos.')
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Crear una colección")
         h4 Crear una colección
         figure
-          img(src='@/assets/curso/temas/tema-4-24.png', alt='Imagen donde se muestra un cuadro de diálogo para iniciar una colección. Allí se determina el ID de la colección y se puede añadir el primer documento. Muestra un botón de “Siguiente” para continuar con el procedimiento.')
+          img(src='@/assets/curso/temas/tema-4-28.png', alt='Imagen donde se muestra un cuadro de diálogo para iniciar una colección. Allí se determina el ID de la colección y se puede añadir el primer documento. Muestra un botón de “Siguiente” para continuar con el procedimiento.')
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Crear un documento")
         h4 Crear un documento
         figure
-          img(src='@/assets/curso/temas/tema-4-24.png', alt='Imagen donde se muestra un cuadro de diálogo para crear un documento.')
+          img(src='@/assets/curso/temas/tema-4-29.png', alt='Imagen donde se muestra un cuadro de diálogo para crear un documento.')
 
     .row.mt-5.justify-content-center
       .col-xl-10
