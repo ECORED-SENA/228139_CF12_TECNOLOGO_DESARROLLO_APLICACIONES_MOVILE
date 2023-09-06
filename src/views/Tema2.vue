@@ -171,82 +171,82 @@
             i.fas.fa-angle-right(style="color: #F0B62A")
             span #[strong Seguridad y privacidad:] Comunidad activa: Hay una comunidad activa de usuarios y recursos en línea, lo que facilita la búsqueda de tutoriales, plantillas y soluciones a problemas comunes.
 
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.sketch.com/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+            p Para cualquier acción de descarga, instalación, gestión o aprendizaje del uso de Sketch, puede emplear el enlace de su sitio oficial: https://www.sketch.com/
+
     Separador
 
     .titulo-segundo.color-acento-botones
-      #t_2_1.h2 2.1  Balsamiq
+      #t_2_3.h2 2.3 Adobe XD
 
-    .row.mt-5
+    .row.mb-5
       .col-12.col-lg-7
-        p Balsamiq es una herramienta para realizar rápidamente <i>wireframing</i> pensado en ayudar a trabajar más rápido y más inteligentemente. Reproduce la experiencia de dibujar en una pizarra, pero a través del computador. Con se puede hacer maquetas rápidamente.
-        p.mt-3 Instructivo de descarga aplicativo Balsamiq
-        p.mt-3 Cree se cuenta en poniendo su correo electrónico y:
-        a.anexo.mb-4.mb-lg-0(href="https://balsamiq.cloud/" target="_blank")
+        p Adobe XD es la primera herramienta creada por la compañía Adobe, que fue específicamente diseñada para prototipar la experiencia de usuario (UX) e interface de usuario (UI). Esta herramienta ha sido el resultado de la empresa Adobe al trabajar con diseñadores de UX usan sus herramientas de diseño gráfico como Ilustrator, Photoshop y otros, de tal manera en un solo producto agrupa características que tiene como objetivo hacer que los diseñadores de interfaces sean más productivos.
+      .col-6.col-lg-5.offset-3.offset-lg-0
+        figure
+          img(src="@/assets/curso/temas/tema-2-3.png", alt="")
+
+    figure.mb-5
+      img(src="@/assets/curso/temas/tema-2-4.png", alt="")
+
+    p.mb-5 Adobe XD es una herramienta de diseño de interfaces de usuario (UI) y experiencia de usuario (UX) altamente valorada por su conjunto de características y ventajas. Entre sus funciones destacadas se encuentran:
+
+    .row.justify-content-center
+      .col-xl-10
+        ul.lista-ul.mb-4
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Diseño de Alta Fidelidad:] Adobe XD permite a los diseñadores crear diseños de alta fidelidad con facilidad, lo que les ayuda a visualizar cómo se verá y se sentirá la interfaz final.
+
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Prototipado Interactivo:] los usuarios pueden crear prototipos interactivos para simular la experiencia del usuario, lo que facilita la evaluación y prueba de la usabilidad de la interfaz.
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Diseño de Animaciones:] la herramienta permite diseñar animaciones y transiciones fluidas entre pantallas, mejorando así la interacción y la experiencia del usuario.
+
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Colaboración en Tiempo Real:] Adobe XD ofrece capacidades de colaboración en tiempo real, lo que permite a varios miembros del equipo trabajar en el mismo proyecto simultáneamente.
+
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Diseño Responsive:] facilita el diseño responsivo para garantizar que la interfaz se adapte adecuadamente a diferentes tamaños de pantalla y dispositivos.
+
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Integración con Adobe Creative Cloud:] se integra de manera fluida con otras aplicaciones de Adobe Creative Cloud, como Photoshop e Illustrator, lo que simplifica la transferencia de diseños y activos entre aplicaciones.
+
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Bibliotecas de Diseño Compartidas:] los usuarios pueden crear y compartir bibliotecas de diseño para mantener la coherencia en proyectos y equipos.
+
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Comentarios y Revisión:] Adobe XD permite a los equipos y clientes agregar comentarios directamente en el diseño, facilitando así la comunicación y la revisión del trabajo.
+
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Pruebas de Usuario Remotas:] esta herramienta facilita la realización de pruebas de usuario remotas, lo que resulta esencial para obtener retroalimentación valiosa durante el proceso de diseño.
+
+          li.mb-3
+            i.fas.fa-angle-right(style="color: #F0B62A")
+            span #[strong Publicación y Compartir en la Nube:] los diseños y prototipos se pueden compartir en la nube para acceder a ellos desde cualquier ubicación y permitir que otros los revisen sin necesidad de descargar la aplicación.
+
+
+
+    .row.mt-5
+      .col-10.offset-1
+        a.anexo.mb-4.mb-lg-0(href="https://helpx.adobe.com/co/xd/get-started.html" target="_blank")
           .anexo__icono
-            img(src="@/assets/curso/temas/icono-link.svg")
+            img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[strong Enlace web] https://balsamiq.cloud/
-      .col-4.col-lg-5.offset-4.offset-lg-0
-        figure
-          img(src="@/assets/curso/temas/tema-2-18.png", alt="")
+            p #[strong Enlace web] Para cualquier acción de descarga, instalación, gestión o aprendizaje del uso de Adobe XD, puede emplear el enlace de su sitio oficial: https://helpx.adobe.com/co/xd/get-started.html
 
 
-    TabsA.color-acento-contenido.my-5
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Proceso de Registro")
-        h4 Proceso de Registro
-        figure
-          img(src='@/assets/curso/temas/p1.png', alt='')
-
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Creación de espacio de trabajo")
-        h4 Creación de espacio de trabajo
-        figure
-          img(src='@/assets/curso/temas/p2.png', alt='')
-
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Creación del primer proyecto")
-        h4 Creación del primer proyecto
-        figure
-          img(src='@/assets/curso/temas/p3.png', alt='')
-
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Creación de la estructura de las vistas")
-        h4 Creación de la estructura de las vistas
-        figure
-          img(src='@/assets/curso/temas/p4.png', alt='')
-
-
-    Separador
-
-    .titulo-segundo.color-acento-botones
-      #t_2_2.h2 2.2  Canva
-    figure.mt-5
-      img(src="@/assets/curso/temas/tema-2-23.png", alt="")
-    p.mt-5 Canva es un <i>software</i> y sitio web de herramientas de diseño gráfico simplificado, fundado en 2012. Utiliza un formato de arrastrar y soltar y proporciona acceso a más de 60 millones de fotografías y 5 millones de vectores, gráficos y fuentes.
-    p.mt-4 Para usar este servicio se debe registrar en el portal &nbsp;
-      a(href="https://www.canva.com/es_us/" target="_blank") #[strong https://www.canva.com/es_us/]
-      |  y una vez iniciada la sesión, el botón crear diseño se puede a empezar crear una presentación para dispositivos móviles.
-    p.mt-5
-    .row.mt-5
-      .col-10.offset-1
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 2
-          span Crear presentación móvil CANVA
-        figure.mt-4
-          img(src="@/assets/curso/temas/tema-2-24.png", alt="")
-          figcaption.mt-3 Referencia Nota. Crear presentación móvil CANVA, Canva (2021).
-    p.mt-5 Canva permite al igual que Adobe XD diseñar interfaces para dispositivos móviles, y también de una forma muy similar, ver figura 7. Propone iniciar el diseño con plantillas prediseñadas lo que puede representar una facilidad para empezar un proyecto.
-    .row.mt-5
-      .col-10.offset-1
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3
-          span Uso de plantilla
-        figure.mt-4
-          img(src="@/assets/curso/temas/tema-2-25.png", alt="")
-          figcaption.mt-3 Referencia Nota. Uso de plantilla, Canva (2021).
-    p.mt-5 Finalmente, esta no son las únicas herramientas existentes en el mercado, existen muchas otras y se han presentado las antes vistas en función de su popularidad, aceptación en el mercado, y amplia documentación y video tutoriales en las redes.
 
     Separador
 
@@ -267,10 +267,10 @@
         ul.lista-ul
           li
             i.fas.fa-angle-right
-            | Emplear un lenguaje visual combinando lo principios de un buen diseño y las opciones que disponibles en las nuevas tecnologías.
+            span Emplear un lenguaje visual combinando lo principios de un buen diseño y las opciones que disponibles en las nuevas tecnologías.
           li
             i.fas.fa-angle-right
-            | Ser un sistema que posibilite una experiencia uniforme en diferentes plataformas y dispositivos (como pantallas táctiles, control de voz, etc).
+            span Ser un sistema que posibilite una experiencia uniforme en diferentes plataformas y dispositivos (como pantallas táctiles, control de voz, etc).
       .col-6.col-lg-5.offset-3.offset-lg-0
         figure
           img(src="@/assets/curso/temas/tema-2-26.png", alt="")
@@ -290,7 +290,7 @@
       .py-4.py-md-5(titulo="b) Llamativo e intencional" :icono="require('@/assets/curso/temas/tema-2-32.svg')")
         .row
           .h4 b) Llamativo e intencional
-          p.mt-3 Todos los elementos visuales son diseñados por los conceptos de la teoría del diseño como el uso del color, los espacios en blanco, sobras, el sistema de tabla de datos, etc. Todos estos elementos ayudan a determinar la jerarquía y lectura visual, ver figura 9.
+          p.mt-3 Todos los elementos visuales son diseñados por los conceptos de la teoría del diseño como el uso del color, los espacios en blanco, sobras, el sistema de tabla de datos, etc. Todos estos elementos ayudan a determinar la jerarquía y lectura visual.
 
 
           .titulo-sexto.color-acento-contenido
@@ -306,7 +306,7 @@
             span Manejo de colores
           figure
             img(src="@/assets/curso/temas/tema-2-29.png", alt="")
-            figcaption Nota. tomado de Manejo de colores. Material Design (2021).
+            figcaption Nota. Tomado de Manejo de colores. Material Design (2021).
 
       .py-4.py-md-5(titulo="c) El movimiento otorga significado" :icono="require('@/assets/curso/temas/tema-2-33.svg')")
         .row
