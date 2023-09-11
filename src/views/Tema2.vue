@@ -57,7 +57,7 @@
               img(src='@/assets/curso/tema2/img3.png', style="width: 100%" ,alt='').m-auto
           .col-12.bg-c10
             .p-4
-              p.text-center #[strong Prototipado interactivo]: Figma permite crear prototipos interactivos de alta fidelidad. Puedes agregar enlaces, transiciones y animaciones a tus diseños para simular la experiencia del usuario final.
+              p.text-center #[strong Prototipado interactivo]: Figma permite crear prototipos interactivos de alta fidelidad. Puede agregar enlaces, transiciones y animaciones a tus diseños para simular la experiencia del usuario final.
 
       .col-md-8.col-lg.m-2.bg-aguamarina
         .row
@@ -70,7 +70,7 @@
 
     .row.justify-content-center.mb-5
       .col-xl-3
-        figure
+        figure.mb-4
           img(src='@/assets/curso/tema2/img5.png', style="width: 100%" ,alt='').m-auto
 
       .col-xl-9
@@ -105,7 +105,7 @@
 
     .row
       .col-xl-5
-        figure
+        figure.mb-4
           img(src="@/assets/curso/tema2/img6.png", alt="")
       .col-xl-7
         p Sketch es una aplicación de diseño gráfico vectorial ampliamente utilizada por diseñadores, ilustradores y profesionales creativos para crear interfaces de usuario, ilustraciones, diseños de sitios web, iconos y otros elementos visuales.
@@ -155,7 +155,7 @@
             span #[strong Accesible desde cualquier lugar:] Facilidad de uso: La interfaz es intuitiva y fácil de usar, lo que facilita un flujo de trabajo eficiente.
           li
             i.fas.fa-angle-right(style="color: #F0B62A")
-            span #[strong Versionamiento y control de cambios:] • Símbolos y estilos compartidos: permite crear símbolos y estilos compartidos, lo que facilita la actualización de elementos en todo el proyecto.
+            span #[strong Versionamiento y control de cambios:] Símbolos y estilos compartidos: permite crear símbolos y estilos compartidos, lo que facilita la actualización de elementos en todo el proyecto.
 
           li
             i.fas.fa-angle-right(style="color: #F0B62A")
@@ -254,7 +254,7 @@
       #t_2_4.h2 2.4  Conceptos de Material Design
     .row.mt-5
       .col-12.col-lg-7
-        p Material Design es un estilo de diseño creado por Google. Fue anunciado el 25 de junio del 2014 en la conferencia Google I/O. Se ha implementado en el sistema operativo para móviles Android desde la versión Lollipop y también en otros servicios gratuitos de Google como Docs, Calendar, Drive, etc. (¿Qué es el Material Design? ,2021)
+        p Material Design es un estilo de diseño creado por Google. Fue anunciado el 25 de junio del 2014 en la conferencia Google I/O. Se ha implementado en el sistema operativo para móviles Android desde la versión Lollipop y también en otros servicios gratuitos de Google como Docs, Calendar, Drive, etc. (¿Qué es el Material Design?, 2021).
         p.mt-3 Google ha dispuesto al público una guía sobre el Material Design para que los diseñadores se animen a implementarlo en aplicaciones móviles y sitios web disponible en:
         .row.mt-4
           .col-10
@@ -281,7 +281,7 @@
           .col-12.col-lg-9
             .h4 a) Lo material como una metáfora
             p.mt-3 Como lo material está unido a la realidad fusionándose con el espacio, tiempo y el movimiento, está ligado a la realidad táctil, es por esto que se puede integrar con la tecnología haciendo uso de la creatividad e imaginación.
-            p.mt-3 Los bordes y superficies de las cosas materiales entregan pistas visuales basadas en la realidad. El uso de atributos familiares al mundo real ayuda al usuario a entender las posibilidades de lo que se puede hacer con cada elemento presente en la interfaz. Para lograr esto se debe presentar los principios superficie, luz y movimiento, ver figura 8, como elementos principales para transmitir cómo los objetos existen y están dispuestos a interactúan uno con el otro o con el usuario.
+            p.mt-3 Los bordes y superficies de las cosas materiales entregan pistas visuales basadas en la realidad. El uso de atributos familiares al mundo real ayuda al usuario a entender las posibilidades de lo que se puede hacer con cada elemento presente en la interfaz. Para lograr esto se debe presentar los principios superficie, luz y movimiento, como elementos principales para transmitir cómo los objetos existen y están dispuestos a interactúan uno con el otro o con el usuario.
           .col-4.col-lg-3.offset-4.offset-lg-0
 
             figure

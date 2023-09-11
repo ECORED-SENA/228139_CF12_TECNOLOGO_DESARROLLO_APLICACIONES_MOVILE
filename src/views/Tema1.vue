@@ -12,7 +12,7 @@
     .row.mt-5
       .col-12.col-lg-9
         p El desarrollo de aplicaciones móviles no implica únicamente la codificación o programación, también requiere de analizar y entender las necesidades del cliente, crear modelos que hagan más fácil el proceso de desarrollo, la planeación del proyecto, y otras actividades involucradas.
-        p.mt-3 La aplicación de las técnicas de elicitar (transferir información) requisitos, conducen a identificar las fuentes de los mismos con los interesados en el sistema (<i>stakeholders</i>). Estas actividades sin embargo pueden derivar en que el cliente o los usuarios excedan lo que realmente necesitan, o tal vez sin considerar las limitantes a nivel de <i>hardware</i>, <i>Software</i>, presupuesto, tiempo o requisitos, por lo tanto es necesario conocer con todo nivel de detalle lo que se requiere alcanzar y las necesidades reales a cubrir. De esta forma se deben detallar y modificar los requerimientos básicos elicitados. lo cual se logra en un consenso de las partes involucradas como lo indica la siguiente figura 1 y da como resultados la elaboración de un documento en el cual se debe responder:
+        p.mt-3 La aplicación de las técnicas de elicitar (transferir información) requisitos, conducen a identificar las fuentes de los mismos con los interesados en el sistema (<i>stakeholders</i>). Estas actividades sin embargo pueden derivar en que el cliente o los usuarios excedan lo que realmente necesitan, o tal vez sin considerar las limitantes a nivel de <i>hardware</i>, <i>software</i>, presupuesto, tiempo o requisitos, por lo tanto es necesario conocer con todo nivel de detalle lo que se requiere alcanzar y las necesidades reales a cubrir. De esta forma se deben detallar y modificar los requerimientos básicos elicitados, lo cual se logra en un consenso de las partes involucradas como lo indica la siguiente figura 1 y da como resultados la elaboración de un documento en el cual se debe responder:
         p ¿Qué es lo prioritario?, ¿qué es lo esencial? y ¿para cuándo se requiere? Esto se especifica de algún modo y luego se revisa o válida para garantizar la coincidencia en la comprensión que tiene el analista del problema y los demás participantes.
       .col-3.offset-4.offset-lg-0
         figure
@@ -26,10 +26,11 @@
 
     .row.mb-5
       .col-8.col-lg-6.offset-2.offset-lg-3
-        figure
-          img(src="@/assets/curso/temas/tema-1-3.png", alt="" style="max-width: 500px")
+        figure.mb-4
+          img(src="@/assets/curso/temas/tema-1-3.svg", alt="Ilustración que establece un esquema básico de acuerdos que ayudan a establecer los requerimientos en el desarrollo de una aplicación." style="max-width: 500px")
+        figcaption Nota. Esquema de acuerdos, SENA (2021).
 
-    p.mb-5 Cuando los sistemas no son tan complejos en su enlace, como lo es en la mayoría de los casos para aplicaciones móviles, se recomienda el empleo de historia de usuario, sin embargo, se propone revisar algunos aspectos que no son fáciles de identificar en un proceso de licitación de requisitos y que se mencionan a continuación ya que está enmarcados en el contexto de aplicaciones móviles, ver tabla 1.
+    p.mb-5 Cuando los sistemas no son tan complejos en su alcance, como lo es en la mayoría de los casos para aplicaciones móviles, se recomienda el empleo de historia de usuario, sin embargo, se propone revisar algunos aspectos que no son fáciles de identificar en un proceso de licitación de requisitos y que se mencionan a continuación ya que está enmarcados en el contexto de aplicaciones móviles, ver tabla 1.
 
     .titulo-sexto.color-acento-botones
       h5.mb-0 Tabla 1
@@ -71,15 +72,44 @@
       .col-1.d-none.d-lg-block
         figure
           img(src="@/assets/curso/temas/tema-1-5.svg", alt="")
-    .row.mt-5
-      .col-8.offset-2
+    .row.mt-5.justify-content-center
+      .col-xl-10
         .cajon.color-acento-botones.p-4.bg-acento-botones-op30
-          p Un ejemplo de regla de negocio: un cliente al que se factura más de 10.000 al año es un cliente de tipo A, los clientes de tipo A se les aplica un descuento del 10% en pedidos superiores a 3.000.
-    .row.mt-5
+          p Este es un ejemplo de regla de negocio: un cliente al que se factura más de 10.000 al año es un cliente de tipo A. Para los clientes de tipo A se aplican descuentos del 10% en pedidos superiores a 3.000.
+    .row.my-5
       .col-12
           p Pero las #[strong reglas] de negocio pueden ser tan complejas como lo sean las operaciones del cliente, en casos como tal se propone emplear artefactos como los casos de uso para definir al detalle la especificación del sistema.
-          p En un caso tal se proponen algunos artefactos a elaborar que guiarán el proceso:
-    .tabla-a.color-primario.mt-5
+          p.mb-0 En un caso tal se proponen algunos artefactos a elaborar que guiarán el proceso:
+
+    h3.mb-4 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Documento de especificación de requisitos
+
+    .row.mb-5
+      .col-lg-4.col-12
+        figure.mb-4
+          img(src="@/assets/curso/temas/tema-1-7.png", alt="")
+      .col-lg-8
+        p Permite identificar el objetivo general de cada requerimiento sin abordar demasiados detalles técnicos ni de reglas de negocio que se presenten en la operación, es una base para estimar costos y tiempos.
+        p Se puede encontrar un formato de ejemplo, que es a su vez, una guía de cómo crear o adaptar.
+        a.px-4.boton.color-acento-botones(:href="obtenerLink('/downloads/FS-DOC-LevantamientoRequerimientos.pdf')" target="_blank" type="application/pdf")
+          span Descargar
+          i.fas.fa-file-download
+
+
+    h3.mb-4 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Plantilla de casos de uso
+
+    .row.mb-5
+      .col-lg-4.col-12
+        figure.mb-4
+          img(src="@/assets/curso/temas/tema-1-8.png", alt="")
+      .col-lg-8
+        p Alguno de los requerimientos especificados definidos en el documento de especificación de requisitos puede necesitar un nivel de detalle técnico superior, por ejemplo, al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares de operación, donde pueden intervenir reglas de negocio.  A continuación se puede encontrar un ejemplo o guía, para que se pueda adaptar a las necesidades del proyecto.
+        p Se puede encontrar un formato de ejemplo, que es a su vez, una guía de cómo crear o adaptar.
+        a.px-4.boton.color-acento-botones(:href="obtenerLink('/downloads/FS-DOC-LevantamientoRequerimientos.pdf')" target="_blank" type="application/pdf")
+          span Descargar
+          i.fas.fa-file-download
+
+
+    //.tabla-a.color-primario.mt-5
       table
         thead
           tr
@@ -110,15 +140,16 @@
               a.px-4.boton.color-primario.mx-4(:href="obtenerLink('/downloads/FS-DOC-PLANTILLA-CASOS-USO.pdf')" target="_blank" type="application/pdf")
                 span Descargar
                 i.fas.fa-file-download
-    .row.mt-5
-      .col-8.offset-2
+
+    .row.justify-content-center.mt-5
+      .col-xl-10.align-items-center
         .cajon.color-acento-botones.p-4.bg-acento-botones-op30
           .row
-            .col-3.d-none.d-lg-block
+            .col-auto.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema-1-10.svg", alt="").w-75.margin-0-auto
-            .col-12.col-lg-9.align-self-center
-              p Los requerimientos de una aplicación móvil para la mayoría de los casos están cubiertos por técnica como la elaboración de historias de usuario, sin embargo cuando la aplicación móvil pertenece a un ecosistemas de solución tecnológica más compleja, el proceso requiere algún artefacto que ayude a identificar y validar los requisitos.
+            .col
+              p Los requerimientos de una aplicación móvil para la mayoría de los casos están cubiertos por técnica como la elaboración de historias de usuario, sin embargo, cuando la aplicación móvil pertenece a un ecosistemas de solución tecnológica más compleja, el proceso requiere algún artefacto que ayude a identificar y validar los requisitos.
 
 
 

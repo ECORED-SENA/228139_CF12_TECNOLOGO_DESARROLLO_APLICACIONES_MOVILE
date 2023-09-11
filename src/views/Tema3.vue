@@ -33,7 +33,7 @@
               img.imagen_flotante_animada(src="@/assets/curso/temas/tema-3-13.svg", alt="").w-25.margin-0-auto
           .col-8.pt-4.px-4
             .h4 Facilidad y eficiencia de uso
-            p.mt-3 Se peude usar una unidad de tiempo para establecer cuanto tiempo se demora un usuario en realizar una operación completa de su que hacer con la herramienta de trabajo.
+            p.mt-3 Se puede usar una unidad de tiempo para establecer cuanto tiempo se demora un usuario en realizar una operación completa de su quehacer con la herramienta de trabajo.
     .row.mt-5
       .col-8.offset-2.rounded-20.borde-primario-4
         .row.py-3
@@ -68,37 +68,37 @@
           .row(numero="1" titulo="Definir con simplicidad y claridad la estructura de los contenidos ")
             .col-1.mx-3
               figure
-                img(src="@/assets/curso/temas/tema-3-7.svg", alt="")
+                img(src="@/assets/curso/temas/tema-3-7.svg", alt="", style="min-width: 30px")
             .col-9
               p Generalmente, la recomendación es organizarlos de acuerdo con una jerarquía consistente temáticamente o según las relaciones y procesos de negocio de la aplicación.
           .row(numero="2" titulo="Establecer un diseño “limpio”")
             .col-1.mx-3
               figure
-                img(src="@/assets/curso/temas/tema-3-8.svg", alt="")
+                img(src="@/assets/curso/temas/tema-3-8.svg", alt="", style="min-width: 30px")
             .col-9
               p Correcta tipografía, imágenes y recursos gráficos que hagan fácil al usuario encontrar lo que busca, separando los contenidos con una clasificación lógica.
           .row(numero="3" titulo="Ceder el control al usuario")
             .col-1.mx-3
               figure
-                img(src="@/assets/curso/temas/tema-3-9.svg", alt="")
+                img(src="@/assets/curso/temas/tema-3-9.svg", alt="", style="min-width: 30px")
             .col-9
               p Los usuarios no sienten una experiencia positiva si en algún momento se sienten perdidos mientras interactúan con el sistema. Se debe garantizar que el usuario sepa dónde se encuentra y cómo acceder a otro enlace o funcionalidad.
           .row(numero="4" titulo="Facilitar la interacción")
             .col-1.mx-3
               figure
-                img(src="@/assets/curso/temas/tema-3-10.svg", alt="")
+                img(src="@/assets/curso/temas/tema-3-10.svg", alt="", style="min-width: 30px")
             .col-9
               p Permitir que el usuario pueda desarrollar varias acciones de forma fácil e intuitiva aporta a la satisfacción, sin embargo, si estas opciones no se presentan como un diseño limpio, se puede lograr un efecto adverso.
           .row(numero="5" titulo="Simplificar y sintetizar")
             .col-1.mx-3
               figure
-                img(src="@/assets/curso/temas/tema-3-11.svg", alt="")
+                img(src="@/assets/curso/temas/tema-3-11.svg", alt="", style="min-width: 30px")
             .col-9
               p La regla básica para aplicar este principio es: “todo lo que no es necesario sobra”. Con ello se evita sobrecargar el sistema con información u operaciones superfluas.
           .row(numero="6" titulo="Adaptar para todo tipo de dispositivos")
             .col-1.mx-3
               figure
-                img(src="@/assets/curso/temas/tema-3-12.svg", alt="")
+                img(src="@/assets/curso/temas/tema-3-12.svg", alt="", style="min-width: 30px")
             .col-9
               p Otro elemento básico es la adaptabilidad a diferentes dispositivos.
 

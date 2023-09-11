@@ -57,7 +57,7 @@
                 img(src="@/assets/curso/temas/tema-4-6.png", alt="")
             .col-12.col-lg-8
               p Este tipo de licencia permite la instalación y uso gratuito de la aplicación y todos sus componentes sin que requiera alguna suscripción, hacer el registro  es opcional pero no tiene costo o pago, sin embargo, el código fuente se mantiene limitado.
-          .row(numero="4" titulo="OEM (Original <em>Equipment Manufacturer</em>)")
+          .row(numero="4" titulo="OEM (<em>Original Equipment Manufacturer</em>)")
             .col-4.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/temas/tema-4-7.png", alt="")
@@ -119,7 +119,7 @@
             img(src="@/assets/curso/temas/tema-4-14.png", alt="")
       div(titulo="Seguridad de las aplicaciones móviles").row
         .col-12.col-lg-8
-          p Los dispositivos móviles, generalmente también transmiten y reciben información de la red pública de Internet, de modo que son vulnerables a ataques. Existen técnicas como la que establece una Red Privada virtual (VPN, #[em Virtual Prívate Network]), que consiste en cifrar los protocolos de comunicación y todo el contenido a través de ellos simulado, creando con ello una red privada sobre una red pública.
+          p Los dispositivos móviles, generalmente también transmiten y reciben información de la red pública de Internet, de modo que son vulnerables a ataques. Existen técnicas como la que establece una Red Privada virtual (#[em Virtual Prívate Network], VPN), que consiste en cifrar los protocolos de comunicación y todo el contenido a través de ellos simulado, creando con ello una red privada sobre una red pública.
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/curso/temas/tema-4-15.png", alt="")
@@ -159,11 +159,11 @@
         p Es una plataforma en la nube de Google para el desarrollo de aplicaciones web y móviles. Fue creada en 2011 pasando a ser parte de Google en 2014, su función esencial es hacer más sencilla la creación de aplicaciones #[em web] y móviles en su desarrollo, como herramientas que facilitan el trabajo para que sea más rápido, pero sin renunciar a la calidad y la seguridad.
         .cajon.color-acento-botones.p-4.bg-acento-botones-op30.mx-5.mt-5
           .row
-            p.my-0 Para acceder a los servicios de firebase se requiere consumir el API suministrado por Google.
+            p.my-0 Para acceder a los servicios de Firebase se requiere consumir el API suministrado por Google.
       .col-4.col-lg-3.offset-4.offset-lg-0
         figure
           img(src="@/assets/curso/temas/tema-4-20.png", alt="")
-    p.mt-5 Las bases de datos en tiempo real son la principal y esencial herramienta de Firebase.Estas se alojan en la nube, son de tipo NoSQL en formato JSON. Este servicio ofrece alojar y disponer de los datos de información de la aplicación en tiempo real, manteniéndolos actualizados, aunque el usuario no realice ninguna acción.
+    p.mt-5 Las bases de datos en tiempo real son la principal y esencial herramienta de Firebase. Estas se alojan en la nube, son de tipo NoSQL en formato JSON. Este servicio ofrece alojar y disponer de los datos de información de la aplicación en tiempo real, manteniéndolos actualizados, aunque el usuario no realice ninguna acción.
 
 
 
@@ -174,12 +174,12 @@
       .col-12.col-lg-8
         p Firebase envía automáticamente eventos, es decir, llama funcionalidades de las aplicaciones cuando los datos cambian; esto es lo que hace posible desarrollar aplicaciones con funciones que se ejecutan en tiempo real.
         p.mt-3 Frente al tema de seguridad ofrece un sistema de autenticación que permite tanto el #[em login] de usuario (mediante #[em email] y contraseña) como el acceso mediante al uso de perfiles de otros sistemas externos, generalmente de redes sociales.
-        p.mt-3 A continuación, se mostrará un proceso básico para crear una base de datos en firebase.
+        p.mt-3 A continuación, se mostrará un proceso básico para crear una base de datos en Firebase.
 
 
     TabsA.color-acento-contenido
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Nuevo proyecto firebase")
-        h4 Nuevo proyecto firebase
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Nuevo proyecto Firebase")
+        h4 Nuevo proyecto Firebase
         figure
           img(src='@/assets/curso/temas/tema-4-24.png', alt='Imagen del entorno de Firebase donde se comienza un nuevo proyecto. Presenta los cuadros y campos para completar información como nombre del proyecto, ID del proyecto, ubicación (la cual es seleccionable), entre otros.')
 
@@ -210,7 +210,7 @@
 
 
 
-    p.my-5 Uno de los principales inconvenientes podría ser la necesidad de pago ya que firebase no es gratuita en todas sus funcionalidades y gratuitamente limita el número de usuario. Sin embargo, para los proyectos que se encuentren en sus primeras etapas, la versión gratuita de Firebase es más que suficiente.
+    p.my-5 Uno de los principales inconvenientes podría ser la necesidad de pago ya que Firebase no es gratuita en todas sus funcionalidades y gratuitamente limita el número de usuario. Sin embargo, para los proyectos que se encuentren en sus primeras etapas, la versión gratuita de Firebase es más que suficiente.
 
     Separador
 
@@ -227,19 +227,19 @@
           br
           | A continuación, se enumeran algunas herramientas de código abierto que facilitan el proceso de prueba y diseño de APIs, utilizadas para distintos protocolos web.
 
-    .row.mt-5
-      .col-8.offset-2
+    .row.justify-content-center.mt-5
+      .col-xl-10
         LineaTiempoD.color-acento-contenido
-          .row(numero="a" titulo="SOAP UI")
-            .col-4.offset-4.offset-lg-0
-              figure
-                img(src="@/assets/curso/temas/tema-4-32.png", alt="")
-            .col-12.col-lg-8
+          .row(numero="a" titulo="SOAP UI").justify-content-center
+            .col-xl-4
+              figure.mb-4
+                img(src="@/assets/curso/temas/tema-4-32.png", alt="", style="min-width: 30px")
+            .col-12.col-xl-8
               p Puede comprobar los servicios web SOAP como los servicios web de tipo RESTful. Está disponible como una versión de código abierto y PRO. Está basado en Java, por tanto empleable en cualquier sistema operativo; sobre todo, es fácil de aprender y usar y confiable para todos.
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Sitio oficial:
+                  span Sitio oficial:
               a.anexo.mb-4.mb-lg-0(href="https://www.soapui.org" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
@@ -248,22 +248,22 @@
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Video tutorial recomendado:
+                  span Video tutorial recomendado:
               a.anexo.mb-4.mb-lg-0(href=" https://youtu.be/rfIi9hdT-vk" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
                   p #[strong Enlace web]  https://youtu.be/rfIi9hdT-vk
-          .row(numero="b" titulo="Estudio Katalon")
-            .col-4.offset-4.offset-lg-0
-              figure
-                img(src="@/assets/curso/temas/tema-4-33.png", alt="")
-            .col-12.col-lg-8
+          .row(numero="b" titulo="Estudio Katalon").justify-content-center
+            .col-xl-4
+              figure.mb-4
+                img(src="@/assets/curso/temas/tema-4-33.png", alt="", style="min-width: 30px")
+            .col-12.col-xl-8
               p Automatiza procesos de pruebas de servicios web y APIs para dispositivos móviles. Reconocida como  la mejor en el área de automatización de este tipo de pruebas.
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Sitio oficial:
+                  span Sitio oficial:
               a.anexo.mb-4.mb-lg-0(href="https://www.katalon.com/" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
@@ -272,22 +272,22 @@
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Video tutorial recomendado:
+                  span Video tutorial recomendado:
               a.anexo.mb-4.mb-lg-0(href="https://youtu.be/Ho80rqLBb1w" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
                   p #[strong Enlace web] https://youtu.be/Ho80rqLBb1w
-          .row(numero="c" titulo="TestNG")
-            .col-4.offset-4.offset-lg-0
-              figure
-                img(src="@/assets/curso/temas/tema-4-34.png", alt="")
-            .col-12.col-lg-8
+          .row(numero="c" titulo="TestNG").justify-content-center
+            .col-xl-4
+              figure.mb-4
+                img(src="@/assets/curso/temas/tema-4-34.png", alt="", style="min-width: 30px")
+            .col-12.col-xl-8
               p Inspirado en JUnit y NUnit para el lenguaje Java. El lema principal de esto es proporcionar funcionalidades fáciles de usar y cumplir con todo tipo de fases de prueba como unidad, integración, funcional, etc. (TestNG ,2021).
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Sitio oficial:
+                  span Sitio oficial:
               a.anexo.mb-4.mb-lg-0(href="https://testng.org/" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
@@ -296,22 +296,22 @@
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Video tutorial recomendado:
+                  span Video tutorial recomendado:
               a.anexo.mb-4.mb-lg-0(href="https://youtu.be/-VHNJcoMBek" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
                   p #[strong Enlace web] https://youtu.be/-VHNJcoMBek
-          .row(numero="d" titulo="JMeter")
-            .col-4.offset-4.offset-lg-0
-              figure
-                img(src="@/assets/curso/temas/tema-4-35.png", alt="")
-            .col-12.col-lg-8
+          .row(numero="d" titulo="JMeter").justify-content-center
+            .col-xl-4
+              figure.mb-4
+                img(src="@/assets/curso/temas/tema-4-35.png", alt="", style="min-width: 30px")
+            .col-12.col-xl-8
               p Automatiza pruebas pero también puede realizar pruebas de rendimiento, pruebas de estrés de los servicios RESTFul y SIAP, con el uso de scripts de JMeter.
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Sitio oficial:
+                  span Sitio oficial:
               a.anexo.mb-4.mb-lg-0(href="https://jmeter.apache.org/ " target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
@@ -320,22 +320,22 @@
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Video tutorial recomendado:
+                  span Video tutorial recomendado:
               a.anexo.mb-4.mb-lg-0(href="https://youtu.be/E2zwM8s7thY" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
                   p #[strong Enlace web] https://youtu.be/E2zwM8s7thY
-          .row(numero="e" titulo="PostMan")
-            .col-4.offset-4.offset-lg-0
-              figure
-                img(src="@/assets/curso/temas/tema-4-36.png", alt="")
-            .col-12.col-lg-8
+          .row(numero="e" titulo="PostMan").justify-content-center
+            .col-xl-4
+              figure.mb-4
+                img(src="@/assets/curso/temas/tema-4-36.png", alt="", style="min-width: 30px")
+            .col-12.col-xl-8
               p Tal vez el más popular porque está enfocado en el proceso de desarrollo, lo que lo hace muy facil de usar.
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Sitio oficial:
+                  span Sitio oficial:
               a.anexo.mb-4.mb-lg-0(href="https://www.postman.com/" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
@@ -344,7 +344,7 @@
               ul.lista-ul
                 li
                   i.fas.fa-angle-right
-                  | Video tutorial recomendado:
+                  span Video tutorial recomendado:
               a.anexo.mb-4.mb-lg-0(href="https://youtu.be/qsejysrhJiU" target="_blank")
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")

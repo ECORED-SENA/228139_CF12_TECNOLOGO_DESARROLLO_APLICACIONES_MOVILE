@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Diseño y construcción de Frontend',
+    componenteFormativo: 'Diseño y construcción de <em>Frontend</em>',
     descripcionCurso:
       'En este componente formativo se abordan los conceptos clave para el diseño y desarrollo de aplicaciones móviles nativas, como sus elementos, vistas, maquetación, entornos de desarrollo, lenguajes entre otros.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -34,17 +34,17 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Adobe XD',
+            titulo: 'Figma',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Balsamiq',
+            titulo: 'Sketch',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Canva',
+            titulo: 'Adobe XD',
             hash: 't_2_3',
           },
           {
@@ -145,7 +145,7 @@ export default {
     {
       tema: '2. Diseño gráfico: herramientas de prototipado',
       referencia:
-        'EDteam. (2017). Minicurso de Balsamiq Mockups (1) - Los wireframes y la interfaz. [video] Youtube.',
+        'EDteam. (2017). Minicurso de Balsamiq Mockups (1) - Los <em>wireframes</em> y la interfaz. [video] Youtube.',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/4WqfxF1QjTM',
     },
@@ -173,7 +173,7 @@ export default {
   ],
   glosario: [
     {
-      termino: '<i>Wereable</i>',
+      termino: '<i>Wearable</i>',
       significado:
         'Dispositivo conectado que se puede llevar puesto y que se conecta al teléfono móvil.',
     },
@@ -188,7 +188,7 @@ export default {
       referencia:
         'Lázaro, G. (2015). Efecto Ripple de Material Design [HTML+CSS+JS]. ',
       link:
-        ' https://gersonlazaro.com/tutorial-efecto-ripple-de-material-design-html-css-js',
+        'https://gersonlazaro.com/tutorial-efecto-ripple-de-material-design-html-css-js ',
     },
     {
       referencia: 'Material.io. (2021). Material Design.',
@@ -291,12 +291,6 @@ export default {
         {
           nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Animador y Productor Multimedia',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-4(data-aos="fade") Aquí comienza el estudio del componente formativo #[strong “Diseño y construcción de Frontend”]; explore la información del video que se muestra enseguida, la cual le contextualiza sobre los aspectos más importantes de los temas por desarrollar. #[strong ¡Adelante!]
+    p.mb-4(data-aos="fade") Aquí comienza el estudio del componente formativo #[strong “Diseño y construcción de #[em Frontend]”]; explore la información del video que se muestra enseguida, la cual le contextualiza sobre los aspectos más importantes de los temas por desarrollar. #[strong ¡Adelante!]
 
     figure
       .video
