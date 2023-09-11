@@ -138,35 +138,34 @@ export default {
     {
       tema: '2. Diseño gráfico: herramientas de prototipado',
       referencia:
-        'FalconMasters. (2018). Curso de Adobe XD | 1. Introducción y que Aprenderemos en el Curso [video] Youtube.',
+        'FalconMasters. (2018). Curso de Adobe XD | 1. Introducción y que Aprenderemos en el Curso',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/5HfqCSm9k3Y',
     },
     {
       tema: '2. Diseño gráfico: herramientas de prototipado',
       referencia:
-        'EDteam. (2017). Minicurso de Balsamiq Mockups (1) - Los <em>wireframes</em> y la interfaz. [video] Youtube.',
+        'EDteam. (2017). Minicurso de Balsamiq Mockups (1) - Los <em>wireframes</em> y la interfaz.',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/4WqfxF1QjTM',
     },
     {
       tema: '2. Diseño gráfico: herramientas de prototipado',
       referencia:
-        'Aprende, G. (2020).  COMO USAR CANVA: Canva tutorial - Aprende a diseñar FÁCIL y de manera PROFESIONAL. [video] Youtube.',
+        'Aprende, G. (2020).  COMO USAR CANVA: Canva tutorial - Aprende a diseñar FÁCIL y de manera PROFESIONAL.',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/kdE6ZmT_5MI',
     },
     {
       tema: '2. Diseño gráfico: herramientas de prototipado',
       referencia:
-        'Conde, J. (2016). 01.- Material Design con Android Studio. ¿Qué es Material Design? [video] Youtube.',
+        'Conde, J. (2016). 01.- Material Design con Android Studio. ¿Qué es Material Design?',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/wt0Jzc9UHNw',
     },
     {
       tema: '4. Componentes de <i>software</i>',
-      referencia:
-        'Novato, P. (2019). Firebase 01.- Que es Firebase.  [video] Youtube.',
+      referencia: 'Novato, P. (2019). Firebase 01.- Qué es Firebase?. ',
       tipo: 'Video Tutorial',
       link: 'https://youtu.be/0Bhrwc8VfGw',
     },
