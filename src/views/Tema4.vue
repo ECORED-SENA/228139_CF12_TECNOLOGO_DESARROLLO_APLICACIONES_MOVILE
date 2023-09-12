@@ -113,13 +113,13 @@
     AcordionA.mt-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Seguridad de las aplicaciones en la nube")
         .col-12.col-lg-8
-          p Las aplicaciones móviles y las aplicaciones #[em web] requieren servicios en la nube; ello plantea desafíos adicionales propios del entorno de la nube, ya que los recursos muchas veces, son compartidos.Existen dispositivos a nivel de infraestructura como los identificadores de intrusos o los cortafuegos que tienen la finalidad de identificar usos no autorizados de los recursos de red por los que funcionan las aplicaciones en la nube.
+          p Las aplicaciones móviles y las aplicaciones web requieren servicios en la nube; ello plantea desafíos adicionales propios del entorno de la nube, ya que los recursos muchas veces, son compartidos.Existen dispositivos a nivel de infraestructura como los identificadores de intrusos o los cortafuegos que tienen la finalidad de identificar usos no autorizados de los recursos de red por los que funcionan las aplicaciones en la nube.
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/curso/temas/tema-4-14.png", alt="")
       div(titulo="Seguridad de las aplicaciones móviles").row
         .col-12.col-lg-8
-          p Los dispositivos móviles, generalmente también transmiten y reciben información de la red pública de Internet, de modo que son vulnerables a ataques. Existen técnicas como la que establece una Red Privada virtual (#[em Virtual Prívate Network], VPN), que consiste en cifrar los protocolos de comunicación y todo el contenido a través de ellos simulado, creando con ello una red privada sobre una red pública.
+          p Los dispositivos móviles, generalmente también transmiten y reciben información de la red pública de Internet, de modo que son vulnerables a ataques. Existen técnicas como la que establece una Red Privada virtual (#[em Virtual Private Network], VPN), que consiste en cifrar los protocolos de comunicación y todo el contenido a través de ellos simulado, creando con ello una red privada sobre una red pública.
         .col-4.offset-4.offset-lg-0
           figure
             img(src="@/assets/curso/temas/tema-4-15.png", alt="")
@@ -183,8 +183,8 @@
         figure
           img(src='@/assets/curso/temas/tema-4-24.png', alt='Imagen del entorno de Firebase donde se comienza un nuevo proyecto. Presenta los cuadros y campos para completar información como nombre del proyecto, ID del proyecto, ubicación (la cual es seleccionable), entre otros.')
 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Esperar el proceso de setup")
-        h4 Esperar el proceso de setup
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Esperar el proceso de <em>setup</em>")
+        h4 Esperar el proceso de #[em setup]
         figure
           img(src='@/assets/curso/temas/tema-4-25.png', alt='Imagen del entorno de Firebase donde se muestra cómo el aplicativo anuncia que se está finalizando el proceso de Setup.')
 
@@ -208,6 +208,10 @@
         figure
           img(src='@/assets/curso/temas/tema-4-29.png', alt='Imagen donde se muestra un cuadro de diálogo para crear un documento.')
 
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Colección y sus documentos")
+        h4 Colección y sus documento
+        figure
+          img(src='@/assets/curso/temas/tema-4-30.png', alt='Imagen donde se muestra un cuadro de diálogo de una colección y sus documentos.')
 
 
     p.my-5 Uno de los principales inconvenientes podría ser la necesidad de pago ya que Firebase no es gratuita en todas sus funcionalidades y gratuitamente limita el número de usuario. Sin embargo, para los proyectos que se encuentren en sus primeras etapas, la versión gratuita de Firebase es más que suficiente.
@@ -236,7 +240,7 @@
                 img(src="@/assets/curso/temas/tema-4-32.png", alt="", style="min-width: 30px")
             .col-12.col-xl-8
               p Puede comprobar los servicios web SOAP como los servicios web de tipo RESTful. Está disponible como una versión de código abierto y PRO. Está basado en Java, por tanto empleable en cualquier sistema operativo; sobre todo, es fácil de aprender y usar y confiable para todos.
-              ul.lista-ul
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Sitio oficial:
@@ -244,8 +248,9 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://www.soapui.org
-              ul.lista-ul
+                  p.d-md-none #[strong Ver sitio oficial]
+                  p.d-none.d-md-block #[strong Enlace web] https://www.soapui.org
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Video tutorial recomendado:
@@ -253,14 +258,15 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web]  https://youtu.be/rfIi9hdT-vk
+                  p.d-md-none #[strong Ver video tutorial]
+                  p.d-none.d-md-block #[strong Enlace web] https://youtu.be/rfIi9hdT-vk
           .row(numero="b" titulo="Estudio Katalon").justify-content-center
             .col-xl-4
               figure.mb-4
                 img(src="@/assets/curso/temas/tema-4-33.png", alt="", style="min-width: 30px")
             .col-12.col-xl-8
               p Automatiza procesos de pruebas de servicios web y APIs para dispositivos móviles. Reconocida como  la mejor en el área de automatización de este tipo de pruebas.
-              ul.lista-ul
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Sitio oficial:
@@ -268,8 +274,9 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://www.katalon.com/
-              ul.lista-ul
+                  p.d-none.d-md-block #[strong Enlace web] https://www.katalon.com/
+                  p.d-md-none #[strong Ver sitio oficial]
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Video tutorial recomendado:
@@ -277,14 +284,16 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://youtu.be/Ho80rqLBb1w
+                  p.d-md-none #[strong Ver video tutorial]
+                  p.d-none.d-md-block #[strong Enlace web] https://youtu.be/Ho80rqLBb1w
+
           .row(numero="c" titulo="TestNG").justify-content-center
             .col-xl-4
               figure.mb-4
                 img(src="@/assets/curso/temas/tema-4-34.png", alt="", style="min-width: 30px")
             .col-12.col-xl-8
               p Inspirado en JUnit y NUnit para el lenguaje Java. El lema principal de esto es proporcionar funcionalidades fáciles de usar y cumplir con todo tipo de fases de prueba como unidad, integración, funcional, etc. (TestNG ,2021).
-              ul.lista-ul
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Sitio oficial:
@@ -292,8 +301,9 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://testng.org/
-              ul.lista-ul
+                  p.d-none.d-md-block #[strong Enlace web] https://testng.org/
+                  p.d-md-none #[strong Ver sitio oficial]
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Video tutorial recomendado:
@@ -301,14 +311,15 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://youtu.be/-VHNJcoMBek
+                  p.d-none.d-md-block #[strong Enlace web] https://youtu.be/-VHNJcoMBek
+                  p.d-md-none #[strong Ver video tutorial]
           .row(numero="d" titulo="JMeter").justify-content-center
             .col-xl-4
               figure.mb-4
                 img(src="@/assets/curso/temas/tema-4-35.png", alt="", style="min-width: 30px")
             .col-12.col-xl-8
               p Automatiza pruebas pero también puede realizar pruebas de rendimiento, pruebas de estrés de los servicios RESTFul y SIAP, con el uso de scripts de JMeter.
-              ul.lista-ul
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Sitio oficial:
@@ -316,8 +327,9 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://jmeter.apache.org/
-              ul.lista-ul
+                  p.d-none.d-md-block #[strong Enlace web] https://jmeter.apache.org/
+                  p.d-md-none #[strong Ver sitio oficial]
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Video tutorial recomendado:
@@ -325,14 +337,15 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://youtu.be/E2zwM8s7thY
+                  p.d-none.d-md-block #[strong Enlace web] https://youtu.be/E2zwM8s7thY
+                  p.d-md-none #[strong Ver video tutorial]
           .row(numero="e" titulo="PostMan").justify-content-center
             .col-xl-4
               figure.mb-4
                 img(src="@/assets/curso/temas/tema-4-36.png", alt="", style="min-width: 30px")
             .col-12.col-xl-8
               p Tal vez el más popular porque está enfocado en el proceso de desarrollo, lo que lo hace muy facil de usar.
-              ul.lista-ul
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Sitio oficial:
@@ -340,8 +353,9 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://www.postman.com/
-              ul.lista-ul
+                  p.d-none.d-md-block #[strong Enlace web] https://www.postman.com/
+                  p.d-md-none #[strong Ver sitio oficial]
+              ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right
                   span Video tutorial recomendado:
@@ -349,7 +363,8 @@
                 .anexo__icono
                   img(src="@/assets/curso/temas/icono-link.svg")
                 .anexo__texto
-                  p #[strong Enlace web] https://youtu.be/qsejysrhJiU
+                  p.d-none.d-md-block #[strong Enlace web] https://youtu.be/qsejysrhJiU
+                  p.d-md-none #[strong Ver video tutorial]
     p.mt-5 Se puede concluir que existen muchas herramientas, para todas las fases de desarrollo e implementación de aplicaciones web y móviles con diversidad de licenciamientos y generalmente con funcionalidades de libre distribución que permiten dar marcha un proyecto sin incurrir en costos de entrada.
 
 

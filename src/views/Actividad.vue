@@ -10,7 +10,7 @@
             img(src="@/assets/template/Arrastrar_Soltar.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Diseño y construcción de Front-end
+          h2 Diseño y construcción de <em>Frontend</em>
         p.mb-4 Reforzar los elementos conceptuales y prácticos sobre el diseño y construcción de #[em Front-end], con base en los temas desarrollados en el componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center

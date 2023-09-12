@@ -184,10 +184,8 @@ export default {
   ],
   referencias: [
     {
-      referencia:
-        'Lázaro, G. (2015). Efecto Ripple de Material Design [HTML+CSS+JS]. ',
-      link:
-        'https://gersonlazaro.com/tutorial-efecto-ripple-de-material-design-html-css-js ',
+      referencia: 'Saenz, S. (2018). Ripple estilo Material Design.',
+      link: 'https://sergiosanz.dev/blog/material-design-ripple/',
     },
     {
       referencia: 'Material.io. (2021). Material Design.',
