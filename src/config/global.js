@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Diseño y construcción de <em>Frontend</em>',
+    componenteFormativo: 'Diseño y construcción de <em>Front-end</em>',
     descripcionCurso:
       'En este componente formativo se abordan los conceptos clave para el diseño y desarrollo de aplicaciones móviles nativas, como sus elementos, vistas, maquetación, entornos de desarrollo, lenguajes entre otros.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
