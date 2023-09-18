@@ -45,7 +45,7 @@
           th Aspecto físico o de <i>hardware</i>
           td
             p ¿En qué tipo de dispositivos la <i>app</i> debe funcionar? Móvil, <i>Tablet</i>, <i>Smart watch</i>, etc.
-            p ¿Qué tipo de <i>app</i> es una mejor solución?: nativa, web o híbrida
+            p ¿Qué tipo de <i>app</i> es una mejor solución?: nativa, web o híbrida.
             p En las <i>app</i>s nativas, ¿qué sistema operativo se empleará? Android, IOS, Windows Phone, etc.
             p En las Web <i>app</i>, ¿qué navegadores y versiones deberán soportar las funcionalidades?
             p ¿A cuántos usuarios simultáneamente debe atender el sistema?
@@ -104,7 +104,7 @@
       .col-lg-8
         p Alguno de los requerimientos especificados definidos en el documento de especificación de requisitos puede necesitar un nivel de detalle técnico superior, por ejemplo, al definir procesos síncronos o asíncronos de operación del sistema informático o casos particulares de operación, donde pueden intervenir reglas de negocio.  A continuación se puede encontrar un ejemplo o guía, para que se pueda adaptar a las necesidades del proyecto.
         p Se puede encontrar un formato de ejemplo, que es a su vez, una guía de cómo crear o adaptar.
-        a.px-4.boton.color-acento-botones(:href="obtenerLink('/downloads/FS-DOC-LevantamientoRequerimientos.pdf')" target="_blank" type="application/pdf")
+        a.px-4.boton.color-acento-botones(:href="obtenerLink('/downloads/FS-DOC-PLANTILLA-CASOS-USO.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
 

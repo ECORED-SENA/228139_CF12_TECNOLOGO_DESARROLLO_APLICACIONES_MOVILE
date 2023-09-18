@@ -169,7 +169,7 @@
             span #[strong Seguridad y privacidad:] Compatibilidad con dispositivos Apple: Está optimizado para trabajar con dispositivos Apple y es una opción popular entre diseñadores que se centran en el desarrollo de aplicaciones para iOS y macOS.
           li
             i.fas.fa-angle-right(style="color: #F0B62A")
-            span #[strong Seguridad y privacidad:] Comunidad activa: Hay una comunidad activa de usuarios y recursos en línea, lo que facilita la búsqueda de tutoriales, plantillas y soluciones a problemas comunes.
+            span #[strong Comunidad activa:] Hay una comunidad activa de usuarios y recursos en línea, lo que facilita la búsqueda de tutoriales, plantillas y soluciones a problemas comunes.
 
         a.anexo.mb-4.mb-lg-0(href="https://www.sketch.com/" target="_blank")
           .anexo__icono
@@ -294,6 +294,7 @@
 
 
           .titulo-sexto.color-acento-contenido
+            h5 Figura 2
             span Diseño de componentes
           figure
             img(src="@/assets/curso/temas/tema-2-28.png", alt="")
@@ -302,7 +303,7 @@
           p.mt-5 El sistema de color de Material Design ayuda a aplicar color a las interfaces de usuario de una manera simplificada. En este sistema, el diseñador define un color como primario y otro como secundario para representar el tema de su marca. Las variaciones de oscuras y claras para cada color se aplican a la interfaz de usuario de diferentes maneras de manera prestablecida:
 
           .titulo-sexto.color-acento-contenido
-            h5 Figura 2
+            h5 Figura 3
             span Manejo de colores
           figure
             img(src="@/assets/curso/temas/tema-2-29.png", alt="")

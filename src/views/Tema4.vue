@@ -139,13 +139,13 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      #t_4_3.h2 4.3  API’s, Firebase
+      #t_4_3.h2 4.3  API, Firebase
 
 
     figure.mt-5
       img(src="@/assets/curso/temas/tema-4-18.png", alt="")
     p.mt-5 Las organizaciones están cambiando el modelo de su arquitectura de <i>software</i> a arquitecturas basadas en  componentes de microservicios. Un microservicio es un servicio pequeño encargado de una única función básica, y para realizar un proceso más complejo se emplearían varios microservicios coordinados entre sí. La ventaja de esto es que ese mismo servicio está publicado en internet no para usuarios finales sino para que sea utilizado por aplicaciones, de esta manera una aplicación móvil puede usar ese servicio de la misma forma que una aplicación #[em web] o un <i>chatbot</i>.
-    .h4.mt-5 Definición de API’S
+    .h4.mt-5 Definición de API
     .row.mt-5
       .col-12.col-lg-9
         p Se debe imaginar que una empresa necesita que sus clientes registren sus solicitudes por página #[em web], aplicación móvil y <i>chatbot</i>; la principal ventaja de esto es que si se desea cambiar una regla de negocio (por ejemplo, aplicar determinados descuentos), no debe modificar los tres sistemas sino solamente los microservicios que están involucrados en dicho proceso.
@@ -229,7 +229,7 @@
         p.mb-0 Durante el desarrollo de un proyecto basado en microservicios, las pruebas de API se vuelven esenciales. Estas pruebas son cruciales tanto para el desarrollo como para el consumo de una API, ya que permiten evaluar y garantizar el correcto funcionamiento, la funcionalidad esperada, la confiabilidad y la seguridad de la aplicación.
           br
           br
-          | A continuación, se enumeran algunas herramientas de código abierto que facilitan el proceso de prueba y diseño de APIs, utilizadas para distintos protocolos web.
+          | A continuación, se enumeran algunas herramientas de código abierto que facilitan el proceso de prueba y diseño de API, utilizadas para distintos protocolos web.
 
     .row.justify-content-center.mt-5
       .col-xl-10
@@ -265,7 +265,7 @@
               figure.mb-4
                 img(src="@/assets/curso/temas/tema-4-33.png", alt="", style="min-width: 30px")
             .col-12.col-xl-8
-              p Automatiza procesos de pruebas de servicios web y APIs para dispositivos móviles. Reconocida como  la mejor en el área de automatización de este tipo de pruebas.
+              p Automatiza procesos de pruebas de servicios web y API para dispositivos móviles. Reconocida como  la mejor en el área de automatización de este tipo de pruebas.
               ul.lista-ul.d-none.d-md-block
                 li
                   i.fas.fa-angle-right

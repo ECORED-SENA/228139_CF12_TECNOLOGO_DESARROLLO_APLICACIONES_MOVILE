@@ -73,12 +73,12 @@ export default {
           },
           {
             numero: '4.2',
-            titulo: 'Serguridad',
+            titulo: 'Seguridad',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'APIs, Firebase',
+            titulo: 'API, Firebase',
             hash: 't_4_3',
           },
           {
@@ -249,12 +249,12 @@ export default {
         {
           nombre: 'Oscar Absalón Guevara',
           cargo: 'Diseñador instruccional',
-          centro: 'Centro de gestión industrial - Regional Bogotá',
+          centro: 'Centro de gestión industrial - Regional distrito capital',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Diseñadora instruccional',
-          centro: 'Centro de gestión industrial - Regional Bogotá',
+          centro: 'Centro de gestión industrial - Regional distrito capital',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
